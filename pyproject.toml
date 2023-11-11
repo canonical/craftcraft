@@ -24,14 +24,14 @@ dev = [
     "pytest-mock==3.12.0",
 ]
 lint = [
-    "black==23.10.1",
+    "black==23.11.0",
     "codespell[toml]==2.2.6",
-    "ruff==0.1.4",
+    "ruff==0.1.5",
     "yamllint==1.32.0"
 ]
 types = [
     "mypy[reports]==1.6.1",
-    "pyright==1.1.334",
+    "pyright==1.1.335",
 ]
 docs = [
     "furo==2023.9.10",
