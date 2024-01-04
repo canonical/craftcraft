@@ -13,23 +13,15 @@ repos:
       - id: check-vcs-permalinks
       - id: fix-byte-order-marker
       - id: mixed-line-ending
-  - repo: https://github.com/charliermarsh/ruff-pre-commit
+  - repo: https://github.com/astral-sh/ruff-pre-commit
     # renovate: datasource=pypi;depName=ruff
     rev: "v0.1.11"
     hooks:
       - id: ruff
-        args: [--fix, --exit-non-zero-on-fix]
-  - repo: https://github.com/psf/black
-    # renovate: datasource=pypi;depName=black
-    rev: "23.12.1"
-    hooks:
-      - id: black
+        args: [--fix]
+      - id: ruff-format
   - repo: https://github.com/adrienverge/yamllint.git
     # renovate: datasource=pypi;depName=yamllint
     rev: "v1.33.0"
     hooks:
       - id: yamllint
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: "v1.8.0"
-    hooks:
-      - id: mypy
