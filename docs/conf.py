@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "starcraft"
-copyright = "2023, Canonical"
+project = "craftcraft"
+copyright = "2024, Canonical"
 author = "Canonical"
 
 # region General configuration
@@ -48,6 +48,22 @@ html_css_files = [
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
+    "craft-cli": (
+        "https://canonical-craft-cli.readthedocs-hosted.com/en/latest/",
+        None,
+    ),
+    "craft-parts": (
+        "https://canonical-craft-parts.readthedocs-hosted.com/en/latest/",
+        None,
+    ),
+    "craft-providers": (
+        "https://canonical-craft-providers.readthedocs-hosted.com/en/latest/",
+        None,
+    ),
+    "craft-store": (
+        "https://canonical-craft-store.readthedocs-hosted.com/en/latest/",
+        None,
+    ),
 }
 
 # Type hints configuration
@@ -57,6 +73,6 @@ always_document_param_types = True
 
 # Github config
 github_username = "canonical"
-github_repository = "starcraft-base"
+github_repository = "craftcraft"
 
 # endregion
