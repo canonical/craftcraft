@@ -28,7 +28,7 @@ dev = [
     "pytest-mock~=3.12",
 ]
 lint = [
-    "black~=23.10",
+    "black~=24.3",
     "codespell[toml]~=2.2",
     "ruff~=0.1.10",
     "yamllint==1.32"
