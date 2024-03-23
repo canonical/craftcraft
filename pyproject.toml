@@ -2,7 +2,7 @@
 name = "craftcraft"
 dynamic = ["version", "readme"]
 dependencies = [
-    "craft-application~=1.1",
+    "craft-application~=2.1",
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
