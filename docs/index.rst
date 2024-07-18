@@ -1,7 +1,7 @@
 .. craftcraft documentation root file
 
 Craftcraft
-=========
+==========
 
 .. toctree::
    :maxdepth: 1
